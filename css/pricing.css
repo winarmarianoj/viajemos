@@ -1,0 +1,37 @@
+html {
+  font-size: 14px;  
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  max-height: 590px;
+  padding: 20px 0px;
+  margin-block-end: 3%;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+#precios{
+  font-size: 4rem;
+  color: darkblue;
+}
+
+#precios1{
+  font-size: 2rem;
+  color: rgb(218, 8, 8);
+}
+
+.imgPricing{
+  background-image: url(../img/wall.jpg);
+}

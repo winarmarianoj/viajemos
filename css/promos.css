@@ -1,0 +1,40 @@
+.contenedorCentral{        
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;    
+    padding-bottom: 15%;
+    margin-top: 10%;
+    position: center;
+    padding: 10px 0;
+    /*background-color: rgb(11, 7, 240);*/
+}
+
+@media screen and (max-width:600px){
+    .central{
+        background-color:orange;
+    }
+
+    .contenidoCentral{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:960px){
+    .central{
+        background-color:violet;
+    }
+    .contenidoCentral{
+        background-color: blue;
+
+    }
+
+}
+
+@media screen and (min-width:960px) and (max-width:1280px){
+    .central{
+        background-color:tomato;
+    }
+    .contenidoCentral{
+        width: 50%;
+    }    
+}
