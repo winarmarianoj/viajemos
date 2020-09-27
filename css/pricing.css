@@ -7,11 +7,8 @@ html {
   }
 }
 
-.container {
-  max-width: 1200px;
-  max-height: 590px;
-  padding: 20px 0px;
-  margin-block-end: 3%;
+.container {  
+  background-image: url(../img/wall.jpg);
 }
 
 .pricing-header {
@@ -32,6 +29,3 @@ html {
   color: rgb(218, 8, 8);
 }
 
-.imgPricing{
-  background-image: url(../img/wall.jpg);
-}
