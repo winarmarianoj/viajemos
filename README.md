@@ -1,6 +1,5 @@
-# viajemos
-Para Ingresar online al sitio:  https://viajemos.vercel.app/
-# Sitio Web Vaijemos
+
+# Sitio Web Viajemos
 
 ## Práctica en Full Stack Web Codo a Codo
 
@@ -27,3 +26,4 @@ Para Ingresar online al sitio:  https://viajemos.vercel.app/
 
 -	Mariano Wiñar
 
+Para Ingresar online al sitio:  https://viajemos.vercel.app/
