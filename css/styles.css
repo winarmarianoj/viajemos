@@ -1,9 +1,14 @@
 html{
     scroll-behavior: smooth !important;
 }
+
 .prueba {
     max-width: 100%;
     max-height: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
     background-image: url(../img/fondo3.jpg);
     background-attachment: fixed;
     background-position: center 0;
@@ -12,7 +17,7 @@ html{
   }
 
 .principal{
-    height: 95vh;
+    height: 90vh;
     background-image: url(../img/img1.jpg);
     background-attachment: fixed;
     background-position: center 0;
@@ -21,26 +26,19 @@ html{
     color: cornsilk;    
 }
 .container{
-    height: 99vh;
+    height: 90vh;    
 }
-.containerServicios{
-    height: 95vh;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.containerLugares{
-    height: 98vh;
-}
-.containerPromociones{    
-    height: 99vh;
-}
+
 .container1{
-    height: 99vh;
+    height: 70vh;
     background-color: rgba(3, 78, 25, 0.493);
     margin-top: 10vh;
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
 }
 div.extra-small{
     max-width: 40px;
@@ -51,6 +49,13 @@ div.extra-small{
     font-family: 'Arial';    
     font-size: x-large;
     color: darkblue;
+    margin-top: 1vh;
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #viajandoMundo{
@@ -63,29 +68,34 @@ div.extra-small{
     width: auto;
     height: 570px;
 }
-#lugares, #promociones, #contactenos, #quienesSomos, #nuestrosContactos, #contactoss{
+#lugares, #promociones, #contactenos, #quienesSomos, #nuestrosContactos{
     font-size: 3rem;
 }
+
 div.galeria{
     width:95%;
 	margin:0 auto;
 	display: flex;
 	flex-flow:wrap;
-	justify-content: center;
+    justify-content: center;    
 }
 div.galeria-fotos{ 
     height: 99vh;   
     max-height: 93vh;
     max-width: 140vh;
     padding: 25px 0;    
-    padding-bottom: 11%;
+    padding-bottom: 2%;
+    margin-top: 10%;
     padding: 5px 0 50px;    
     background-color: rgba(148, 3, 3, 0.493);
-
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto;    
+}
+div.acordeon{
+    padding: 5px 5px;    
+    margin-top: 7%;    
 }
 
 div.imagen{
@@ -103,30 +113,96 @@ div.imagen img:hover{
 	overflow: hidden;
 }
 
-#viajemos{    
-    margin-top: 10px;	
-    line-height: 42px;
-    min-height: 100vh;
-    padding: 10px 10px;    
+.viajemos{  
+    height: 65vh;    
     font-family: Arial;
     font-size: large;
-}
-.historiaViajemos{
-    height: 60vh;
     background-image: url(../img/viajemosHistoria.jpg);
     background-attachment: fixed;
     background-position: center 0;
     background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Verdana;
+    background-repeat: no-repeat;    
     font-size: 3rem;
     color: rgb(1, 1, 20);    
     opacity: 0.6;
+    padding-bottom: 15%;
+    margin-top: 10%;
+    position: center;
+}
+.desde{
+    padding-top: 30px;    
+}
+
+.text{        
+    font-family: Verdana;
+    font-size: x-large;
+    color: rgb(1, 1, 20);       
 }
 
 .datos{
     font-style: oblique;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: 'sans';
 }
 
+@media (min-width: 450px) {
+    .prueba{
+      max-width: 380px;
+    }
+    .piePagina{
+        max-width: 380px;
+    }
+    .container1{
+        max-width: 380px;
+    }
+  }
+
+@media (min-width: 576px) {
+    .prueba{
+      max-width: 540px;
+    }
+    .piePagina{
+        max-width: 540px;
+    }
+    .container1{
+        max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .prueba{
+      max-width: 720px;
+    }
+
+    .piePagina{
+        max-width: 720px;
+    }
+
+    .container1{
+        max-width: 720px;
+    }
+  }  
+  
+  @media (min-width: 992px) {
+    .prueba{
+      max-width: 960px;
+    }
+    .piePagina{
+        max-width: 960px;
+    }
+    .container1{
+        max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .prueba{
+      max-width: 100%;
+    }
+    .piePagina{
+        max-width: 100%;
+    }
+    .container1{
+        max-width: 100%;
+    }
+  }

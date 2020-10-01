@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/promos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -66,8 +66,9 @@
                 <!--Fin Area Menu-->
 
                 <!--Comienzo Imágen de Fondo-->
-                <div class="row principal pt-5 pb-2 mt-5">
-                    <div class="col-12 text-center">                         
+                <div class="row principal pb-5  mt-5">
+                    <div class="col-12 text-center"> 
+                        <br>                        
                         <p id="viajandoMundo">Viajemos por el Mundo</p>                        
                     </div>
                 </div>
@@ -82,13 +83,11 @@
             
             <!--Inicio Servicios-->
             <div class="container">
-
                 <span id="servicios"></span>
-                <br><br>
-
+                <br>
                 <!--Inicio Acordeon-->
-                <div class="row pt-4">
-                    <div class="col-12 pb-2">
+                <div class="acordeon ">
+                    <div class="col-12">
 
                         <div class="accordion" id="accordionExample">
 
@@ -157,7 +156,7 @@
                 <!--Final Acordeon-->
 
                 <!--Inicio Carousel Fotos Hoteles-->
-                <div >
+                <div class="hoteles" >
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                         <li data-target="hoteles/h1.jpg" data-slide-to="Hotel 1" class="active"></li>
@@ -207,16 +206,13 @@
 
             </div>
             <!--Fin Servicios-->
-            <br>
-
+          
             <!--Inicio Lugares-->
-            <span id="lugares"></span> 
-
                 <!--Inicio Galeria-->
-                <div class="my-4 row galeria-fotos pt-4">
-
+                <div class="row pb-5 galeria-fotos pb-5 pt-0">
+                    
                     <div class="galeria">
-
+                        <span id="lugares"></span>                         
                         <div class="imagen"><img src="/img/galeria/1.jpg" alt=""></div>
                         <div class="imagen"><img src="/img/galeria/2.jpg" alt=""></div>
                         <div class="imagen"><img src="/img/galeria/3.jpg" alt=""></div>    
@@ -241,170 +237,149 @@
                     </div>
 
                 </div>                          
-                <!--Fin Galeria-->             
-
+                <!--Fin Galeria--> 
             <!--Fin Lugares-->
-            <br><br>
 
-            <!--Inicio Promociones-->
-            <div class="container">
-
-                <span id="promociones"></span>
-
-                <!--Inicio de Cards de Promociones-->
-                <div class="my-1 contenedorCentral col-12 text-center">                 
-
-                    <div class="card col-4">
-                        <img src="img/promos/3.jpg" class="card-img" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Promociones de Temporada!!</h3>
-                            <br>
-                            <h5 class="card-title">Islas Bahamas y Zona</h5>
-                            <p class="card-text">Esta zona esta actualmente en temporada baja, por lo cual
-                                es una grandiosa oportunidad para poder aprovecharla.
-                                Te ofrecemos una promoción de 7 días y 6 noches, con el Hotel, Estadia en el 
-                                Hotel, Pasajes de Avión, Traslados cuando llegas y te retiras, sería con 
-                                desayuno y cena incluídos.
-                                En Dólares oficial y pagadero en un máximo de 12 cuotas iguales y consecutivas.
-                            </p>
-                            <br>
-                            <a href="/pricing.html" class="btn btn-primary">View</a>
-                            <br><br>
-                            <h4 class="card-title">Promo Bahamas</h4>
-                        </div>
+            <!--Inicio Promociones-->                
+            <div class="contenedorCentral col-12 text-center">                 
+                <span id="promociones"></span>                
+                <div class="card col-4">
+                    <img src="img/promos/3.jpg" class="card-img" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Promociones de Temporada!!</h3>
+                        <br>
+                        <h5 class="card-title">Islas Bahamas y Zona</h5>
+                        <p class="card-text">Esta zona esta actualmente en temporada baja, por lo cual
+                            es una grandiosa oportunidad para poder aprovecharla.
+                            Te ofrecemos una promoción de 7 días y 6 noches, con el Hotel, Estadia en el 
+                            Hotel, Pasajes de Avión, Traslados cuando llegas y te retiras, sería con 
+                            desayuno y cena incluídos.
+                            En Dólares oficial y pagadero en un máximo de 12 cuotas iguales y consecutivas.
+                        </p>
+                        <br>
+                        <a href="/pricing.html" class="btn btn-primary">View</a>
+                        <br><br>
+                        <h4 class="card-title">Promo Bahamas</h4>
                     </div>
-        
-                    <div class="card col-4.5">
-                        <img src="img/promos/40.jpg" class="card-img" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Promociones de Temporada!!</h3>
-                            <br>
-                            <h5 class="card-title">Islas del Caribe</h5>
-                            <p class="card-text">Amaneceres y Atardeceres inolvidables!!!!
-                                En ésta temporada te ofrecemos algo imperdible, con la posibilidad de elegir
-                                2 de los mejores Hoteles de la zona, Con Todos los servicios incluídos, Desayuno,
-                                Bar, Cena, Lavandería, 2 Viajes durante la semana a conocer Islas de la zona.y más... 
-                                Imperdible!!!! 
-                            </p>
-                            <br>
-                            <a href="/pricing.html" class="btn btn-primary">View</a>
-                            <br><br>
-                            <h4 class="card-title">Promo Caribe</h4>
-                        </div>
+                </div>
+    
+                <div class="card col-4">
+                    <img src="img/promos/40.jpg" class="card-img" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Promociones de Temporada!!</h3>
+                        <br>
+                        <h5 class="card-title">Islas del Caribe</h5>
+                        <p class="card-text">Amaneceres y Atardeceres inolvidables!!!!
+                            En ésta temporada te ofrecemos algo imperdible, con la posibilidad de elegir
+                            2 de los mejores Hoteles de la zona, Con Todos los servicios incluídos, Desayuno,
+                            Bar, Cena, Lavandería, 2 Viajes durante la semana a conocer Islas de la zona.y más... 
+                            Imperdible!!!! 
+                        </p>
+                        <br>
+                        <a href="/pricing.html" class="btn btn-primary">View</a>
+                        <br><br>
+                        <h4 class="card-title">Promo Caribe</h4>
                     </div>
-        
-                    <div class="card col-4">
-                        <img src="img/promos/56.jpg" class="card-img" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Promociones de Temporada!!</h3>
-                            <br>
-                            <h5 class="card-title">Buceo en las Costas del Mediterráneo</h5>
-                            <p class="card-text">Otra posibilidad impresionante!!!!                            
-                                Con esta promo podes acceder a una semana en las playas, costas, y aguas del 
-                                Mar Mediterráneo visitando 3 países en menos de quince días.
-                                Te ofrecemos una amplia oferta hotelera y con todas las comodidades incluídas,
-                                Desayuno, cena y lavandería.
-                                No te lo pierdas!!!!
-                            </p>
-                            <br>
-                            <a href="/pricing.html" class="btn btn-primary">View</a>
-                            <br><br>
-                            <h4 class="card-title">Promo Mediterráneo</h4>
-                        </div>
-                    </div>                
-                </div>           
-                <!--Fin de Cards de Promociones-->
-
-            </div> 
+                </div>
+    
+                <div class="card col-4">
+                    <img src="img/promos/56.jpg" class="card-img" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Promociones de Temporada!!</h3>
+                        <br>
+                        <h5 class="card-title">Buceo en las Costas del Mediterráneo</h5>
+                        <p class="card-text">Otra posibilidad impresionante!!!!                            
+                            Con esta promo podes acceder a una semana en las playas, costas, y aguas del 
+                            Mar Mediterráneo visitando 3 países en menos de quince días.
+                            Te ofrecemos una amplia oferta hotelera y con todas las comodidades incluídas,
+                            Desayuno, cena y lavandería.
+                            No te lo pierdas!!!!
+                        </p>
+                        <br>
+                        <a href="/pricing.html" class="btn btn-primary">View</a>
+                        <br><br>
+                        <h4 class="card-title">Promo Mediterráneo</h4>
+                    </div>
+                </div>                
+            </div>                     
             <!--Fin Promociones-->
 
             <!--Inicio Quienes Somos-->
-            <div class="container">
-
+            <div class="container-4"> <!--Ver si asi o container-->
                 <span id="quienesSomos"></span>
-                <br>               
 
-                <div id="viajemos">
-                    <div class="historiaViajemos">
-                        <p id="titleSomos text-center">Desde 2000 - Una familia para servirlo</p>                       
-                    </div> 
-                    <div class="container">
-                        <div class="row">                         
-                            <div class="col text-center">
-                                <p><b>
-                                Fue fundada en Caballito en el año 2000, y nos prometimos seguir adelante aunque todo lo que nos rodea sea lo contrario.<br>
-                                La oficina comenzó siendo en el garage de la casa, en donde con tan sólo el teléfono de línea, (recordemos que en aquella
-                                época no existían aún los celulares ni las redes sociales), y con un cuadernillo gloria el cual lo tenemos guardado como reliquia
-                                y recuerdo familiar del negocio,... Eso sí con muchas ganas.
-                                Así fue que comenzó esta gran historia de Viajemos primeramente en Argentina, y luego por el mundo. Hoy contamos con más 
-                                de 5 oficinas en todo el mundo, incluyendo la preferida de la familia en Tokio - Japón.
-                                </b></p>
-                            </div>
-                        </div>
-                    </div>
-                  </div> 
+                <div class="viajemos col-12 text-center">                    
+                    <p class="desde text-center">Desde 2000 - Una familia para servirlo</p>
+                </div> 
+
+                <div class="text col-12 text-center">                         
+                    <p><b>
+                        Fundada en Caballito en el año 2000, y nos prometimos seguir adelante a pesar del contexto.<br>
+                        La oficina comenzó siendo en el garage de la casa, en donde con tan sólo el teléfono de línea, (recordemos que en aquella
+                        época no existían aún los celulares ni las redes sociales), y con un cuadernillo gloria el cual lo tenemos guardado como reliquia
+                        y recuerdo familiar del negocio,... Eso sí con muchas ganas.
+                        Así fue que comenzó esta gran historia de Viajemos primeramente en Argentina, y luego por el mundo. Hoy contamos con más 
+                        de 5 oficinas en todo el mundo, incluyendo la preferida de la familia en Tokio - Japón.
+                        </b></p>
+                </div>
+
             </div> 
             <!--Fin Quienes Somos-->
 
             <!--Inicio Nuestros Contactos-->
-            <div class="container1">
-
+            <div class="container1 col s12 m6">
                 <span id="nuestrosContactos"></span>
-                <br><br>
-                <div class="contact col-12 text-center">                      
-                    <p id="contactoss">Nuestros Contactos</p>
-                    
-                    <div class="row">
-                        <div class="col s12 m6">
-                            <div class="datos">
-                                <br>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><img src="/logos/smartphone.png" alt="" <p><b> Phone: 0 5 4 - 9 - 0 1 1 - 5 5 5 5 - 5 5 5 5</b></p></li>
-                                    <br><br>
-                                    <li class="list-inline-item"><img src="/logos/mapas-de-google.png" alt="" <p><b> Adress: Alguna Calle 1901 - </b></p></li>
-                                    <br><br>
-                                    <li class="list-inline-item"><img src="/logos/mapas-de-google.png" alt="" <p><b> Esquina Otra Calle de Algún Barrio</b></p></li>
-                                    <br><br>
-                                    <li class="list-inline-item"><img src="/logos/reloj.png" alt="" <p><b> Lunes a Viernes de 10 a 18 hs.</b></p></li>
-                                    <br><br>
-                                    <li class="list-inline-item"><img src="/logos/email.png" alt="" <p><b> Email: viajemosContacto@viajemos.com.ar</b></p></li>
-                                </ul>
-
-                            </div>
-                            
-                        </div>
-
-                        <div class="col s12 m6">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13144.474986991374!2d-58.54750492648925!3d-34.550548689215695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9fe4f104a0b%3A0x4b261824f04140fb!2sVilla%20Ballester!5e0!3m2!1ses-419!2sar!4v1601017711806!5m2!1ses-419!2sar" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
+                <br>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="datos text-center">
+                            <br>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><img src="/logos/smartphone.png" alt="" <p><b> Phone: 0 5 4 - 9 - 0 1 1 - 5 5 5 5 - 5 5 5 5</b></p></li>
+                                <br><br>
+                                <li class="list-inline-item"><img src="/logos/mapas-de-google.png" alt="" <p><b> Adress: Alguna Calle 1901 - </b></p></li>
+                                <br><br>
+                                <li class="list-inline-item"><img src="/logos/mapas-de-google.png" alt="" <p><b> Esquina Otra Calle de Algún Barrio</b></p></li>
+                                <br><br>
+                                <li class="list-inline-item"><img src="/logos/reloj.png" alt="" <p><b> Lunes a Viernes de 10 a 18 hs.</b></p></li>
+                                <br><br>
+                                <li class="list-inline-item"><img src="/logos/email.png" alt="" <p><b> Email: viajemosContacto@viajemos.com.ar</b></p></li>
+                            </ul>
+                        </div> 
                     </div>
 
-                </div> 
-
+                    <div class="col s12 m6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26289.1336115553!2d-58.5803576937073!3d-34.54996744415282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9f880d30623%3A0xf63bd5e2b5393d70!2sVilla%20Ballester%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1601579071551!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
             </div> 
             <!--Fin Nuestros Contactos-->
-        
+
         </main>
         <!--Final del Main-->
 
         <!--Inicio del Footer-->
-        <footer class="pt-0 pb-1 text-muted text-center text-small">
-            <br><br>
-            <p class="mb-3">&copy; 2017-2020 MW</p>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Nosotros</a></li>
-                <li class="list-inline-item"><a href="#">Términos</a></li>
-                <li class="list-inline-item"><a href="#">Soporte</a></li>
-                <li class="list-inline-item"><a href="#"></a></li>
-                <li class="list-inline-item"><img src="/logos/facebook.png" alt=""></li>
-                <li class="list-inline-item"><img src="/logos/instagram.png" alt=""></li>
-                <li class="list-inline-item"><img src="/logos/linkedin.png" alt=""></li>
-                <li class="list-inline-item"><img src="/logos/twiter.png" alt=""></li>
-                <li class="list-inline-item"><img src="/logos/youtube.png" alt=""></li> 
-            </ul>
+            <footer class="piePagina col-12 s12 m6">
+                <div class="col-12 s12 m6 text-muted text-center text-small">
+                    <div class="datos">        
+                        <p class="mb-3 my-2 pt-5">&copy; 2017-2020 MW</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Nosotros</a></li>
+                            <li class="list-inline-item"><a href="#">Términos</a></li>
+                            <li class="list-inline-item"><a href="#">Soporte</a></li>
+                            <li class="list-inline-item"><a href="#"></a></li>
+                            <li class="list-inline-item"><img src="/logos/facebook.png" alt=""></li>
+                            <li class="list-inline-item"><img src="/logos/instagram.png" alt=""></li>
+                            <li class="list-inline-item"><img src="/logos/linkedin.png" alt=""></li>
+                            <li class="list-inline-item"><img src="/logos/twiter.png" alt=""></li>
+                            <li class="list-inline-item"><img src="/logos/youtube.png" alt=""></li> 
+                        </ul>
 
-        </footer>
-        <!--Fin del Footer-->
+                    </div>
+                </div>
+                <br><br>
+            </footer>
+        <!--Fin del Footer-->        
 
     </div>
 
