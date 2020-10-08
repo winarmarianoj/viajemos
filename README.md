@@ -26,4 +26,4 @@
 
 -	Mariano Wiñar
 
-Para Ingresar online al sitio:  https://viajemos.vercel.app/
+Para Ingresar online al sitio:  https://ecstatic-leavitt-6c7d1a.netlify.app/
